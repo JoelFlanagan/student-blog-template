@@ -19,7 +19,7 @@ Your blog will automatically update and publish online.
 Your site will be available at: `https://<your-github-username>.github.io/<repository-name>`.
 
 ### Professional Tip
-Your blog is public and can be shared with future employers. Consider treating posts as part of your portfolio and edit the `public/style.css` to show off your design skills.
+Your blog is public and can be shared with future employers. Consider treating posts as part of your portfolio and edit the `/assets/style.css` to show off your design skills.
 
 ## What Happens Behind the Scenes
 This template automatically:

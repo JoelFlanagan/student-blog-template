@@ -102,4 +102,8 @@ const index = applyTemplate(template, {
 
 fs.writeFileSync(`${DIST_DIR}/index.html`, index);
 
+// Simple Node.js built-in method:
+fs.cpSync("assets", `${DIST_DIR}/assets`, { recursive: true });
+
+
 console.log(chalk.green("✔ Build complete"));
